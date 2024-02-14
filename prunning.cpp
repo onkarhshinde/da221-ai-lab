@@ -188,8 +188,8 @@ void playTicTacToe() {
 }
 
 int main() {
-    freopen("input.txt","r",stdin);
-    freopen("output.txt","w",stdout);
+   // freopen("input.txt","r",stdin);
+   // freopen("output.txt","w",stdout);
 
     auto start = high_resolution_clock::now();
     cout << "Welcome to Tic-Tac-Toe!" << endl;
