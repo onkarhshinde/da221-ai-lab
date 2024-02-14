@@ -1,0 +1,162 @@
+Output for alpha-beta pruning algo:
+Welcome to Tic-Tac-Toe!
+
+Enter your move (row and column, separated by space): 1 1
+
+  |   |  
+-- --  --
+  | O |  
+-- --  --
+  |   |  
+ 
+AI's move:
+X |   |  
+--  --  --
+  | O |  
+-- --  --
+  |   |  
+correct number of game states at this state: 15682
+Enter your move (row and column, separated by space): 2 2
+
+X |   |
+-- --  --
+  | O |
+-- --  --
+  |   | O
+ 
+AI's move:
+X |   | X
+-- --  --
+  | O |
+-- --  --
+  |   | O
+correct number of game states at this state: 796
+
+Enter your move (row and column, separated by space): 0 1
+
+X | O | X
+-- --  --
+  | O |
+-- --  --
+  |   | O
+ 
+AI's move:
+X | O | X
+-- --  --
+  | O |
+-- --  --
+  | X | O
+correct number of game states at this state: 48
+
+Enter your move (row and column, separated by space): 1 0
+
+X | O | X
+-- --  --
+O | O |
+-- --  --
+  | X | O
+
+AI's move:
+X | O | X
+-- --  --
+O | O | X
+-- --  --
+  | X | O
+correct number of game states at this state: 4
+
+Enter your move (row and column, separated by space): 2 0
+
+X | O | X
+-- --  --
+O | O | X
+-- --  --
+O | X | O
+ 
+It's a draw!
+Total correct number of game states 16530
+ time used for running code from user manual(ms) 15648844
+
+
+
+_________________________________________________________________________________________
+
+
+
+
+output for without alpha-beta pruning algo
+Welcome to Tic-Tac-Toe!
+Enter your move (row and column, separated by space): 1 1
+
+  |   |
+--  --  --
+  | O |
+--  --  --
+  |   |
+ 
+AI's move:
+X |   |
+--  --  --
+  | O |
+--  --  --
+  |   |
+correct number of game states at this state: 55504
+
+Enter your move (row and column, separated by space): 2 2
+
+
+
+
+X |   |
+--  --  --
+  | O |
+--  --  --
+  |   | O
+ 
+AI's move:
+X |   | X
+--  --  --
+  | O |
+--  --  --
+  |   | O
+correct number of game states at this state: 1172
+Enter your move (row and column, separated by space): 0 1
+
+X | O | X
+--  --  --
+  | O |
+--  --  --
+  |   | O
+ 
+AI's move:
+X | O | X
+--  --  --
+  | O |
+--  --  --
+  | X | O
+correct number of game states at this state: 50
+Enter your move (row and column, separated by space): 1 0
+
+X | O | X
+--  --  --
+O | O |
+--  --  --
+  | X | O
+ 
+AI's move:
+X | O | X
+--  --  --
+O | O | X
+--  --  --
+  | X | O
+correct number of game states at this state: 4
+Enter your move (row and column, separated by space): 2 0
+
+X | O | X
+--  --  --
+O | O | X
+--  --  --
+O | X | O
+ 
+It's a draw!
+Total correct number of game states 56730
+ time used for running code from user manual(ms) 11638095
